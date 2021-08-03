@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 19" width="21" height="19">
+	<title>bnner+header</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #b99403 } 
+	</style>
+	<g id="bnner+header">
+		<g id="main_nav">
+			<path id="Shape 5" class="shp0" d="M0 19L3.55 13.82L8 13.82L13.06 13.82L17.51 13.82L21 19L0 19ZM10.53 12.95C7.64 12.95 5.29 9.77 5.29 6.91L5.29 5.18C5.29 2.32 7.64 0 10.53 0C13.42 0 15.76 2.32 15.76 5.18L15.76 6.91C15.76 9.77 13.42 12.95 10.53 12.95Z" />
+		</g>
+	</g>
+</svg>
