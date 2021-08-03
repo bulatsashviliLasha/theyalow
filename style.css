@@ -11,7 +11,7 @@ audio,video {
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display: block;
 }
-body {
+body , html {
     line-height: 1;
 }
 ol,
@@ -33,6 +33,10 @@ table {
 a {
     text-decoration: none;
     color: #9B7D08;
+}
+.first-page , .second-page , .third-page , .fourth-page , footer{
+    max-width: 1920px;
+    margin: 0 auto;
 }
 @font-face {
     font-family: 'SegoeWP';
