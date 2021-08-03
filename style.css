@@ -174,6 +174,7 @@ main {
 .first-video{
  width:   clamp(360px, 100vw, 549px); 
  transform: scale(1.2 , 1);
+ opacity: 0.7;
 }
 .playbutton-lg{
  display:flex;
@@ -548,7 +549,6 @@ footer h1{
         width: 100%;
         height: 64px;
         font-size: 14px;
-        font-family: '';
     }
     .contact , .services , .about-Us {
         height: 3.938rem;
@@ -709,4 +709,3 @@ form{
         display:none;
     }
 }
-/* dada */
