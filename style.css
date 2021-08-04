@@ -38,6 +38,7 @@ a {
     max-width: 1920px;
     margin: 0 auto;
 }
+
 @font-face {
     font-family: 'SegoeWP';
     src: url(./assets/SegoeWP.ttf);
@@ -77,7 +78,7 @@ a {
     }
 }
 .first-page {
-    background-image: url(./assets/first-page-background.png);
+    background-image: url(./assets/first-page-background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px -13px 8px -10px rgb(0 0 0 / 58%) inset;
@@ -151,16 +152,16 @@ main {
     text-align: center;
     font-size: 63px;
     font-family: 'AsapRegular' , sans-serif ;
+    color:white;
 }
 .video-div{
     display: flex;
     justify-content: center;
     position: relative;
-    opacity: 0.7;
     overflow: hidden;
 }
 .video-div:hover{
-    opacity:0.99;
+    opacity: 0.7;
     cursor: pointer;
 }
 .first-video-controls{
@@ -174,7 +175,6 @@ main {
 .first-video{
  width:   clamp(360px, 100vw, 549px); 
  transform: scale(1.2 , 1);
- opacity: 0.7;
 }
 .playbutton-lg{
  display:flex;
@@ -184,7 +184,7 @@ main {
  width: 65px;
  height:65px;
  border-radius:35px;
- margin-bottom: 11%;
+ margin-bottom: 15%;
 }
 .playbutton-sm{
     display:flex;
@@ -202,7 +202,7 @@ main {
     margin: 0 23px;
     font-size: clamp(11px, 3vw, 17px);
     background-color: rgb(245, 197, 6 , 0.37);
-    width: clamp(250px, 70vw, 405px);
+    width: clamp(250px, 70vw, 430px);
     height: 13px;
     border-radius: 20px;
 }
@@ -292,12 +292,11 @@ main {
     width:341px;
 }
 .third-page-text{
-    height: 174px;
     width:272px;
     text-align: left;
     color:white;
     font-size:29px;
-     font-family: 'SegoeWPLight', sans-serif;;
+    font-family: 'SegoeWPLight', sans-serif;;
 }
 .second-video{
     background-image: url(./assets/monkeyMan.png);
@@ -333,7 +332,6 @@ main {
     justify-content: space-between;
     background-color:#EC9E03;
     width:329px;
-    height:233px;
     margin-left: 30px;
 }
 .twentytwo{
@@ -351,9 +349,9 @@ main {
     filter: invert(46%) sepia(42%) saturate(1304%) hue-rotate(166deg) brightness(109%) contrast(90%);
 }
 .left-plus{
-  position: relative;
-  left:150px;
-  top:10px;
+    position: relative;
+    left: 155px;
+    top: 30px;
 }
 .right-plus{
     position: relative;
@@ -556,16 +554,18 @@ footer h1{
     .top-icons{
         width: 15px;
     }
-    main {
+main {  background: rgb(228,126,25);
+        background: linear-gradient(90deg, rgba(228,126,25,0.8774860285911239) 10%, rgba(2,0,36,1) 82%, rgba(245,197,6,1) 100%);
         justify-content: center;
         height: 100%; 
-    }
+}
 .first-video{
-        width:   clamp(360px, 100vw, 549px); 
+        width:   clamp(360px, 100vw,640px);
         transform: none;
        }
 .second-page{
     height:174px;
+    overflow: hidden;
 }
 .second-pageh2 {
     text-align: center;
@@ -573,6 +573,8 @@ footer h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .features{
+    flex-wrap:wrap;
+    justify-content: center;
     z-index: 1;
 }
 .first-bgforSecondPage , .second-bgforSecondPage{
@@ -588,12 +590,10 @@ footer h1{
 .second-bgforSecondPage{
     transform: translate(0px, -10px);
 }
-.better-design-container,
-.customise-container,
-.its-free-container{
-    height:174px;
+.better-design-container,.customise-container,.its-free-container{
     border-left: none;
     border-right: none;
+    width:150px;
 } 
 .svg-icons-second-page{
     height: 56px;
@@ -601,15 +601,6 @@ footer h1{
 .svg-icons-second-page-modify{
     height: 45px;
 }
-.better-design-container{
-  width:155px;  
-}
-.customise-container{
-    width:135px;  
-  }
-  .its-free-container{
-    width:115px;  
-  }
 .third-page{
     height: 100%;
     background-image: url(./assets/mobileBGx34.png);
@@ -623,7 +614,7 @@ footer h1{
     justify-content: space-around;
 }
 .third-page-text-container{
-    width: 315px;
+    width: 299px;
     height: 233px;
 }
 .third-page-text{
@@ -631,64 +622,54 @@ footer h1{
     width: 235px;
 }
 .twitter-container{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color:#F5C507;
+    justify-content: center;
+    background-color: #F5C507;
     width: 100%;
-    height:233px;
+    flex-wrap: wrap;
     margin-left: 0;
+    padding: 23px 0 12px 0;
 }
 .left-plus{
   left: 130px;
   top: 1px;
 }
 .twitter{
-    width:50%;
     align-items: center;
+    padding: 0 5% 2% 10%;
 }
 .second-twitter-part{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:50%;
-    justify-content: space-evenly;
+    margin: 0 5% 0 5%;
 }
 form{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20%;
+    height: 34px;
+    margin-top: 14px;
 }
 #tweet{
     border-radius: 0 20px 20px 0;
-    height: 50%;
     background-color: #E8A624;
     color: white;
-    border:none;
+    border: none;
     font-size: 15px;
     width: 33%;
-    max-width: 80px;
+    height: 33px;
 }
 #enter-text{
-    height: 40%;
-    border: 0.001px solid black;
+    height: 30px;
     border: none;
-    border-radius: 20px 0 0 20px; 
-    width: 40%;
-    max-width: 130px;
+    border-radius: 20px 0 0 20px;
 }
 #tweet:hover{
     background-color: #1DA1F2;
 }
-.twitter-chat{
-    width: 94%;
-    height:70%;
-}
-.twitter-chat-svg{
-    width:100%;
-    height:100%;
-}
 .fourth-page{
+    overflow: hidden;
     padding-top: 43px;
 }
 .fourth-page h3{
