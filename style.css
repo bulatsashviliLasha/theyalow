@@ -554,7 +554,7 @@ footer h1{
     .top-icons{
         width: 15px;
     }
-main {  background: rgb(228,126,25);
+main { 
         background: linear-gradient(90deg, rgba(228,126,25,0.8774860285911239) 10%, rgba(2,0,36,1) 82%, rgba(245,197,6,1) 100%);
         justify-content: center;
         height: 100%; 
@@ -689,4 +689,11 @@ form{
     .itsfree{
         display:none;
     }
+}
+@media only screen and (max-width: 630px){
+ .p-video-twiter-25-container{
+    background: linear-gradient(
+90deg
+, rgba(228,126,25,0.8774860285911239) 10%, rgba(2,0,36,1) 82%, rgba(245,197,6,1) 100%);
+}
 }
