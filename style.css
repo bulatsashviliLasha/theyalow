@@ -120,7 +120,7 @@ header {
     justify-content: space-around;
     background-color: #F5C506;
     color: #9B7D08;
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'SegoeWPLight' , sans-serif;
     box-shadow: -7px -7px 1px -2px rgba(245, 197, 6, 0.56), -11px -11px 1px -2px rgba(245, 197, 6, 0.56);
 }
@@ -132,7 +132,9 @@ header {
     flex-grow: 1;
     border-left: solid 1px rgb(0, 0, 0, .2);
 }
-
+.about-Us{
+    padding-left: 15px;
+}
 .contact:hover,
 .about-Us:hover,
 .services:hover {
@@ -140,13 +142,13 @@ header {
     filter: invert(0.4) sepia(0.5) saturate(18.4) hue-rotate(320.4deg) brightness(0.95);
     text-shadow: 1px 1px black;
 }
-main {
+.main-div {
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.main-h1-text {
+.main-div-h1-text{
     width: 392px;
     text-align: center;
     font-size: 63px;
@@ -407,7 +409,7 @@ main {
     justify-content: center;}
 
 .fourth-page{
-    background-image: url(./assets/fourth-page-bg.png);
+    background-image: url(./assets/fourthPBGxx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 48px;
@@ -502,6 +504,7 @@ footer h1{
     color:white;
     margin-top: 14px;
     width: 160px;
+    text-shadow: 0px 3px 1px black
 }
 .footer-logo{
     margin-top: 3px;
@@ -553,7 +556,7 @@ footer h1{
     .top-icons{
         width: 15px;
     }
-main { 
+main .main-div{ 
         background: linear-gradient(90deg, rgba(228,126,25,0.8774860285911239) 10%, rgba(2,0,36,1) 82%, rgba(245,197,6,1) 100%);
         justify-content: center;
         height: 100%; 
@@ -652,7 +655,7 @@ form{
 }
 #tweet{
     border-radius: 0 20px 20px 0;
-    background-color: #E8A624;
+    background-image: linear-gradient(#EAA927, #CF8E0C);
     color: white;
     border: none;
     font-size: 15px;
@@ -679,7 +682,7 @@ form{
     padding: 0 31px 0px 26px;
     margin: 83px 0 0 0;
 }
-.twentyfive , .april , .white-line-container , .third-page-title, .right-plus ,.twentytwo , .fourth-page-info-container , .main-h1-text , .arrow-boxs {
+.twentyfive , .april , .white-line-container , .third-page-title, .right-plus ,.twentytwo , .fourth-page-info-container , .main-h1-text , .main-div-h1-text, .arrow-boxs {
     display: none;
     }
 }
