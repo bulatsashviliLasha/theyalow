@@ -556,7 +556,7 @@ footer h1{
     .top-icons{
         width: 15px;
     }
-main .main-div{ 
+.main-div{ 
         background: linear-gradient(90deg, rgba(228,126,25,0.8774860285911239) 10%, rgba(2,0,36,1) 82%, rgba(245,197,6,1) 100%);
         justify-content: center;
         height: 100%; 
